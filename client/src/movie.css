@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+.movie h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.movie * {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.movie img {
+  width: auto;
+  height: auto;
+}
+.movie table {
+  margin-top: 10px;
+}
+.movie .main_content {
+  display: flex;
+}
+.movie .content_imgbox {
+  margin-left: 350px;
+}
+.movie .content_imgbox img{
+  width: 250px;
+}
+.download-button {
+  display: inline-block;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 25px;
+  width: 320px;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
+.movie p {
+  margin-top: -25px;
+}

@@ -1,0 +1,167 @@
+.signup img{
+  margin-top: 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 705.2px;
+  width: 100%;
+}
+*{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.signup .container {
+  margin-top: -620px;
+  margin-left: 200px;
+  width: 1300px;
+  height: 550px;
+  background-color: aliceblue;
+  border-radius: 35px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgb(251, 250, 250),
+    0 6px 20px 0 rgba(255, 254, 254, 0.977);
+  opacity: 0.9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/photo.jpg");
+}
+.signup .container .box1{
+  width: 50%;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  background-color: transparent;
+  opacity: 0.9;
+}
+.signup .container .box2{
+  width: 50%;
+}
+.signup link{
+  color: blue;
+}
+.signup .container h2 {
+  margin-left: 50px;
+  color: white;
+  font-size: 45px;
+}
+.signup .container form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.signup .container form label {
+  width: 355px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  color: rgb(253, 253, 253);
+  display: contents;
+}
+.signup .container form input {
+  width: 355px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+.signup .container form input ::after {
+  background-color: transparent;
+}
+.signup .container form input ::before {
+  background-color: transparent;
+}
+.signup .container form label {
+  margin-left: -5px;
+}
+.signup .container form input:focus {
+  outline: none;
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.signup .container form button {
+  padding: 10px;
+  background-color: #721817;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 358px;
+  height: 40px;
+}
+.signup .container .option{
+  color: white;
+}
+.signup .fa {
+  padding: 18px;
+  font-size: 35px;
+  width: 10px;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #e2e2e2;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.signup .signup.fa:hover {
+    opacity: 0.7;
+}
+.signup .fa-facebook {
+  background: transparent;
+  color: rgb(251, 251, 251);
+}
+
+.signup .fa-twitter {
+  background: transparent;
+  color: rgb(237, 237, 237);
+}
+.signup .fa-linkedin {
+  background: transparent;
+  color: rgb(252, 252, 252);
+}
+
+.signup .fa-youtube {
+  background: transparent;
+  color: rgb(231, 231, 231);
+}
+.signup .fa-instagram {
+  background: transparent;
+  color: rgb(241, 241, 241);
+}
+.signup .para h1{
+  font-size: 45px;
+  margin-bottom: -25px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+.signup .para p{
+  margin-left: 20px;
+  margin-top: 45px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.signup .text-container {
+  color: #ffffff; 
+  opacity: 1; 
+  margin-bottom: 75px;
+}
+.signup .text-container h1{
+  color:rgb(255, 255, 255);
+  font-size: 45px;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 100px;
+  margin-left: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(244, 244, 244), 0 0 5px rgb(83, 83, 250);
+}

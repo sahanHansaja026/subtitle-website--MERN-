@@ -1,0 +1,92 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #070707;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 0;
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  border: 2px solid green;
+  display: flex;
+}
+
+.card-image img {
+  display: block;
+  width: 210px;
+  height: 250px;
+}
+
+.card-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 8px;
+  padding: 16px;
+  display: contents;
+  color: #fff;
+}
+
+.card-header h3 {
+  margin-left: 15px;
+  font-size: 25px;
+}
+.card-body p {
+  margin-top: -50px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-body {
+  padding: 16px;
+}
+
+.card-body p strong {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.pagination-button.active {
+  background-color: green;
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #000000;
+}
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid green;
+  background-color: #000000;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+}

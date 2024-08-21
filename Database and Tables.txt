@@ -1,0 +1,48 @@
+Database and Tables
+The database is where you will store all the data needed for your web app. In the context of a subtitle web app, you might need to store information such as user details, subtitles, and video metadata. Here are some example tables you might create:
+
+Users: To store user information.
+
+id (primary key)
+username
+password
+email
+Videos: To store information about the videos.
+
+id (primary key)
+title
+description
+url
+uploaded_at
+Subtitles: To store subtitle data for the videos.
+
+id (primary key)
+video_id (foreign key referencing Videos)
+language
+content
+timestamp
+Pages
+A React web app is composed of multiple pages, each serving a different function. Here are the typical pages you might need:
+
+Home Page: The landing page of your web app.
+
+Displays a list of available videos.
+May include a search bar for finding videos.
+Video Detail Page: Shows details about a specific video.
+
+Video player for viewing the video.
+List of available subtitles.
+Option to select and display subtitles.
+Upload Page: Allows users to upload new videos and subtitles.
+
+Form for uploading video files.
+Form for uploading subtitle files.
+User Profile Page: Displays user-specific information.
+
+User details.
+List of videos uploaded by the user.
+Option to manage uploaded subtitles.
+Login and Registration Pages: For user authentication.
+
+Login form.
+Registration form.
