@@ -106,9 +106,11 @@ server.js
 routes/
 ├── user.js
 ├── subtitle.js
+├── search.js
 models/
 ├── user.js
 ├── subtitle.js
+├── search.js
 ```
 
 ### Frontend
@@ -126,6 +128,7 @@ client/
 │   │   ├── Login.js
 │   │   ├── Signup.js
 │   │   ├── InputSub.js
+│   │   ├── search.js
 │   │   └── MovieDetails.js
 │   ├── uploads
 │   │   └── images
@@ -142,6 +145,10 @@ client/
 ### Homepage
 
 ![Homepage](https://github.com/sahan026/images/blob/main/image1.png)
+
+### Search
+
+![search pagee](https://github.com/sahan026/images/blob/main/subtitle%20search%20bar.png)
 
 ### Register Page
 
