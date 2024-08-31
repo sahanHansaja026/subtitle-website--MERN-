@@ -33,6 +33,7 @@
   border-bottom-left-radius: 35px;
   background-color: transparent;
   opacity: 0.9;
+  border:solid transparent;
 }
 .signup .container .box2{
   width: 50%;

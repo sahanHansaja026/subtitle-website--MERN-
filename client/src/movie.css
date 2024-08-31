@@ -49,3 +49,25 @@ body {
 .movie p {
   margin-top: -25px;
 }
+.add_sence1{
+  width: 250px;
+  height: 350px;
+  border: 1px solid rgb(110, 109, 109);
+  color: #fff;
+  margin-left: 25px;
+  font-family: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+}
+.add_sence{
+  width: 850px;
+  height: 150px;
+  border: 1px solid rgb(110, 109, 109);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+}

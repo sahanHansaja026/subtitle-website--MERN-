@@ -13,12 +13,11 @@ export default class navbar extends Component {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <a className="nav-link" aria-current="page" href="/">Home</a>
-                    <a className="nav-link" aria-current="page" href="#">About Us</a>
+                    <a className="nav-link" aria-current="page" href="/about">About Us</a>
                     <a className="nav-link" aria-current="page" href="/">Contact</a>
-                    <a className="nav-link" href="/login">Login</a>
-                    <a className="nav-link" href="#">Log out</a>
-                    <a className="nav-link" href="#">Signup</a>
                     <a className="nav-link" href='/search'>search</a>
+                    <a className="nav-link-right" href="/login">Want to Add Subtitles? Join Us!</a>
+                    
                 </div>
             </div>
             

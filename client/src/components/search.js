@@ -31,7 +31,10 @@ export default class Home extends Component {
         })
         .catch((error) => {
           console.error("Error searching for movies:", error);
-          this.setState({ errorMessage: "Error. Unable to search for the movies.", posts: [] });
+          this.setState({
+            errorMessage: "Error. Unable to search for the movies.",
+            posts: [],
+          });
         });
     } else {
       this.setState({ posts: [], errorMessage: "" }); // Clear results if search query is empty
@@ -43,22 +46,21 @@ export default class Home extends Component {
 
     return (
       <div>
-        <h2>Search Movies</h2>
-
+        
         {/* Search Bar */}
         <form className="search-form">
           <input
             type="text"
-            placeholder="Search for a movie..."
+            placeholder="Search movie Name..."
             value={searchQuery}
             onChange={this.handleSearchChange}
           />
         </form>
-
+        <center>
+          <div className="add_sence">Google Ads</div>
+        </center>
         {/* Display error message if search fails */}
-        {errorMessage && (
-          <div className="error">{errorMessage}</div>
-        )}
+        {errorMessage && <div className="error">{errorMessage}</div>}
 
         {/* Display the searched movies details */}
         <div className="card-container">

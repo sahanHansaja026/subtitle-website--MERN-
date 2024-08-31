@@ -81,10 +81,18 @@ const Moviedeatails = () => {
             alt={post.image}
           />
         </div>
+        <center>
+          <div className="add_sence1">Google Ads</div>
+        </center>
       </div>
       <h1> Summery About Movie </h1>
       <br />
       <p>{post.summery}</p>
+      <br />
+      <center>
+        <div className="add_sence">Google Ads</div>
+      </center>
+      <br/>
     </div>
   );
 };

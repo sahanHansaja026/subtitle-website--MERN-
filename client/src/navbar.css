@@ -62,4 +62,10 @@
     background-color: #05ef6a;
     color:#454545f7;
     border: 1px solid white;
-  }
+  } .nav-link-right {
+    font-size: 1.1em;
+    color: #05ef6a !important;
+    margin-left: 705px;
+    transition: color 0.3s ease;
+    font-size: 25px;
+}

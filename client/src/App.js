@@ -7,6 +7,7 @@ import Addsub from "./components/inputsub";
 import Home from "./components/home";
 import Movie from "./components/movie_details";
 import Search from "./components/search";
+import About from "./components/about";
 
 export default class App extends Component {
   render() {
@@ -21,6 +22,7 @@ export default class App extends Component {
             <Route exact path="/search" Component={Search} />
             <Route exact path="/input" Component={Addsub}></Route>
             <Route path="/post/:id" element={<Movie />} />
+            <Route exact path="/about" Component={About} />
           </Routes>
         </div>
       </BrowserRouter>

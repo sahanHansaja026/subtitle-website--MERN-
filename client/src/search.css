@@ -99,11 +99,11 @@
   }
   
   .search-form input[type="text"] {
-    width: 500px;
-    padding: 10px;
+    width: 800px;
+    padding: 20px;
     border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 50px;
+    font-size: 25px;
     outline: none;
     transition: border-color 0.3s;
     background-color: #3c3c3c;

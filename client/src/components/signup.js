@@ -3,12 +3,14 @@ import axios from "axios";
 import "../signup.css";
 import { Link } from "react-router-dom";
 import Background from "../images/photo.jpg";
+import Login from "./login";
 
 export default class Signup extends Component {
   constructor(props) {
     super(props);
     this.state = {
       posts: [],
+      SignupSuccess: false,
       newPost: { name: "", email: "", password: "" },
     };
     this.handleChange = this.handleChange.bind(this);
@@ -62,6 +64,7 @@ export default class Signup extends Component {
           alert("Signup is successful.");
           this.setState({
             newPost: { name: "", email: "", password: "" },
+            SignupSuccess: true,
           });
           this.retrievePosts();
         } else {
@@ -75,6 +78,9 @@ export default class Signup extends Component {
   }
 
   render() {
+    if (this.state.SignupSuccess) {
+      return <Login />;
+    }
     return (
       <div className="signup">
         <img src={Background} alt="Background" />

@@ -1,0 +1,112 @@
+.about {
+  font-size: 15px;
+  color: rgb(247, 247, 247);
+}
+.about .box1 {
+  width: 1450px;
+  height: 350px;
+  border: 5px solid green;
+  border-radius: 25px;
+}
+.about .box1 h1 {
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  font-size: 95px;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.about .box1 h2 {
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  font-size: 45px;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.about .box2 {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.about .box2 .subbox1 {
+  color: #ffffff;
+  width: 650px;
+  text-align: right;
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+.about .box3 .subbox1 ul {
+  color: #ffffff;
+  width: 650px;
+  text-align: left;
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+ul.a {
+  list-style-type: circle;
+}
+.about .box2 .subbox2 {
+  color: white;
+  width: 650px;
+  margin-left: 10px;
+}
+.subbox2 img {
+  width: 550px;
+  height: 450px;
+  margin-left: 105px;
+  margin-top: -40px;
+}
+.about .box3 {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.about .box3 .subbox1 {
+  color: #ffffff;
+  width: 650px;
+  text-align: left;
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.about .box3 .subbox3 {
+  color: white;
+  width: 650px;
+  margin-left: 10px;
+}
+.box3 .subbox3 img {
+  width: 650px;
+  height: 550px;
+  margin-left: 105px;
+}
+.box3 .subbox4 img {
+  width: 500px;
+  height: 450px;
+  margin-left: 105px;
+  margin-top: -100px;
+}
+.about .mark img {
+  width: 1050px;
+  margin: 0;
+  border: 1px solid rgb(126, 126, 126);
+}
+.about .mark p {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+.about .mark h1 {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 350px;
+}

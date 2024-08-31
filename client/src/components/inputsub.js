@@ -249,6 +249,9 @@ class InputSub extends Component {
             <img src={Upload} alt="Example" />
           </form>
         </div>
+        <center>
+          <div className="add_sence">Google Ads</div>
+        </center>
       </div>
     );
   }

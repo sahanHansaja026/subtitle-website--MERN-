@@ -57,11 +57,15 @@ export default class Home extends Component {
     return (
       <div className="pagination">
         {currentPage > 1 && (
-          <button onClick={() => this.retrievePosts(currentPage - 1)}>Previous</button>
+          <button onClick={() => this.retrievePosts(currentPage - 1)}>
+            Previous
+          </button>
         )}
         {pages}
         {currentPage < totalPages && (
-          <button onClick={() => this.retrievePosts(currentPage + 1)}>Next</button>
+          <button onClick={() => this.retrievePosts(currentPage + 1)}>
+            Next
+          </button>
         )}
       </div>
     );
@@ -72,7 +76,17 @@ export default class Home extends Component {
 
     return (
       <div>
-        <h2>Top Movies</h2>
+        <center>
+          <div className="box1">
+            <h1>LankaSub World_</h1>
+            <h2>The Home of Sinhala Subtitles ™.</h2>
+          </div>
+        </center>
+        <br />
+        <center>
+          <div className="add_sence">Google Ads</div>
+        </center>
+        <br />
         <div className="card-container">
           {posts
             .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sort posts by date in descending order
@@ -93,6 +107,10 @@ export default class Home extends Component {
             ))}
         </div>
         {this.renderPagination()}
+        <br />
+        <center>
+          <div className="add_sence">Google Ads</div>
+        </center>
       </div>
     );
   }
