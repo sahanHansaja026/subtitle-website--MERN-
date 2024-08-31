@@ -6,6 +6,8 @@ import Movies from "../images/movie.png";
 import Community from "../images/community.png";
 import Vison from "../images/vison.png";
 import Mark from "../images/mark.png";
+import Marks from "../images/mark.png";
+
 
 export default class about extends Component {
   render() {
