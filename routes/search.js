@@ -1,5 +1,5 @@
 const express = require("express");
-const Posts = require("../models/subtitle");
+const Posts = require("../models/subtitle"); // models import
 const routee = express.Router();
 
 // Search posts by partial movie name
@@ -24,4 +24,4 @@ routee.post("/search", (req, res) => {
     });
 });
 
-module.exports = routee;
+module.exports = routee; // export routee
